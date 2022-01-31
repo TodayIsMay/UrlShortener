@@ -10,10 +10,10 @@
 
 1. установить [JDK 11](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi.) и [Maven](https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.zip)
 2. установить [MAMP](https://downloads.mamp.info/MAMP-PRO-WINDOWS/releases/5.0.4/MAMP_MAMP_PRO_5.0.4.exe)
-3. открыть MAMP, запустить сервер с настройками по-умолчанию
+3. открыть MAMP, запустить сервер с настройками по умолчанию
 4. в MAMP нажать кнопку OpenWebStart page, в разделе MySQL перейти по ссылке phpMyAdmin
 5. в phpMyAdmin создать новую базу данных
-6. в папке проекта найти папку resources (src -> main -> resourses), в файле application.properties ввести название БД
+6. в папке проекта найти папку resources (src -> main -> resources), в файле application.properties ввести название БД
 7. в командной строке зайти в папку UrlShortener
 8. ввести команду "mvn clean spring-boot:run"
 9. если порт 8080 занят, в папке проекта в файле "application.properties" изменить значение server.port на 8081
